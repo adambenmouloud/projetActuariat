@@ -1,28 +1,5 @@
-Table Name:,TF 00-02 décalé – Female 2000-2002 Table
-Table Identity:,1579
-Provider Domain:,institutdesactuaires.com
-Provider Name:,Bridget Browne
-Table Reference:,"Institut des Actuaires , “Notice d’Utilisation Tables de Mortalité TH 00 – 02 et TF 00 – 02”, (Paris, 2005) p. 3-6. Accessed November, 2012 from http://www.institutdesactuaires.com/docs/2007017232113_NOTICETHTF0002.pdf"
-Content Type:,Insured Lives Mortality
-Table Description:,Table Femme 2000-2002 (TF 00 -02) - Female Life Table. Minimum Age: 0. Maximum Age: 112
-EffDate:,
-Comments:,"Study Data: The Decree of December, 2005 amended Article 335-1 by introducing tables TF 00-02 (femme / female) and TH 00-02 (homme / male) to replace the 88-90 TD and TV 88-90 tables.  Décalé (i.e. “shifted”) tables are to be used for survival (“en cas de vie”) rather than death (“en case de deces”). These life tables however are not for annuities; there are other tables for that purpose (such as TG F05 and TG H05 for females and males respectively). The 00-02 mortality tables are constructed on the basis of population data published by the Institut National de la Statistique et des Études Économiques (INSEE) for the period 2000-2002. Methodology:  The décalé (i.e. shifted) tables are to be used for life products, other than annuities, and have an age offset, presumably for conservatism to compensate for the gap between the general population and the insured population. In contrast, the “initial” tables are most widely used for term insurance (“assurances deces”). Data Transcription Errors Detected:  11/2012.  Data Corrected and Certified: 11/2012."
-Keywords:,"Aggregate,Life Table,France"
-
-Table # ,1
-Table Description:,Table Femme 2000-2002 (TF 00 -02) - Female Life Table. Minimum Age: 0. Maximum Age: 112
-Nation:,France
-Scaling Factor:,0
-Data Type:,Floating Point
-"Row, Column (if applicable)->id:",Age
-"Row, Column (if applicable)->ScaleType:",Age
-"Row, Column (if applicable)->AxisName:",Age
-"Row, Column (if applicable)->MinScaleValue:",0
-"Row, Column (if applicable)->MaxScaleValue:",112
-"Row, Column (if applicable)->Increment:",1
-
-Row\Column,1
-0,.00384
+Age,qx
+0,0.00384
 1,0.00033
 2,0.00021
 3,0.00017
