@@ -35,6 +35,12 @@ def npx(x,n,df) -> int :
 def nEx(x,n,techRate,df) -> float :
     return npx(x,n,df) * techDF(n,techRate)
 
+def nAx(x,n,techRate,df) -> float :
+    ActSum = 0
+    for h in range(n):
+        ActSum += n_lqx(x,n,df)*techDF(h+1,techRate)
+    return ActSum
+
 def techDF(h, techRate) ->  float :
     return 1/( (1+techRate)**h )
 
@@ -43,3 +49,4 @@ def AnnuityFactor(x,m,techRate,df) -> float :
     for h in range(m):
         ActSum += nEx(x,h,techRate,df)
     return ActSum
+
