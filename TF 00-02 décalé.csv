@@ -1,0 +1,137 @@
+Table Name:,TF 00-02 décalé – Female 2000-2002 Table
+Table Identity:,1579
+Provider Domain:,institutdesactuaires.com
+Provider Name:,Bridget Browne
+Table Reference:,"Institut des Actuaires , “Notice d’Utilisation Tables de Mortalité TH 00 – 02 et TF 00 – 02”, (Paris, 2005) p. 3-6. Accessed November, 2012 from http://www.institutdesactuaires.com/docs/2007017232113_NOTICETHTF0002.pdf"
+Content Type:,Insured Lives Mortality
+Table Description:,Table Femme 2000-2002 (TF 00 -02) - Female Life Table. Minimum Age: 0. Maximum Age: 112
+EffDate:,
+Comments:,"Study Data: The Decree of December, 2005 amended Article 335-1 by introducing tables TF 00-02 (femme / female) and TH 00-02 (homme / male) to replace the 88-90 TD and TV 88-90 tables.  Décalé (i.e. “shifted”) tables are to be used for survival (“en cas de vie”) rather than death (“en case de deces”). These life tables however are not for annuities; there are other tables for that purpose (such as TG F05 and TG H05 for females and males respectively). The 00-02 mortality tables are constructed on the basis of population data published by the Institut National de la Statistique et des Études Économiques (INSEE) for the period 2000-2002. Methodology:  The décalé (i.e. shifted) tables are to be used for life products, other than annuities, and have an age offset, presumably for conservatism to compensate for the gap between the general population and the insured population. In contrast, the “initial” tables are most widely used for term insurance (“assurances deces”). Data Transcription Errors Detected:  11/2012.  Data Corrected and Certified: 11/2012."
+Keywords:,"Aggregate,Life Table,France"
+
+Table # ,1
+Table Description:,Table Femme 2000-2002 (TF 00 -02) - Female Life Table. Minimum Age: 0. Maximum Age: 112
+Nation:,France
+Scaling Factor:,0
+Data Type:,Floating Point
+"Row, Column (if applicable)->id:",Age
+"Row, Column (if applicable)->ScaleType:",Age
+"Row, Column (if applicable)->AxisName:",Age
+"Row, Column (if applicable)->MinScaleValue:",0
+"Row, Column (if applicable)->MaxScaleValue:",112
+"Row, Column (if applicable)->Increment:",1
+
+Row\Column,1
+0,.00384
+1,0.00033
+2,0.00021
+3,0.00017
+4,0.00014
+5,0.00012
+6,0.00011
+7,0.00010
+8,0.00010
+9,0.00010
+10,0.00011
+11,0.00011
+12,0.00012
+13,0.00013
+14,0.00016
+15,0.00020
+16,0.00024
+17,0.00029
+18,0.00033
+19,0.00035
+20,0.00035
+21,0.00034
+22,0.00034
+23,0.00034
+24,0.00034
+25,0.00035
+26,0.00035
+27,0.00036
+28,0.00037
+29,0.00039
+30,0.00042
+31,0.00047
+32,0.00052
+33,0.00058
+34,0.00064
+35,0.00070
+36,0.00076
+37,0.00084
+38,0.00093
+39,0.00103
+40,0.00114
+41,0.00125
+42,0.00138
+43,0.00151
+44,0.00165
+45,0.00180
+46,0.00195
+47,0.00210
+48,0.00224
+49,0.00238
+50,0.00251
+51,0.00265
+52,0.00282
+53,0.00302
+54,0.00324
+55,0.00346
+56,0.00369
+57,0.00392
+58,0.00414
+59,0.00440
+60,0.00468
+61,0.00503
+62,0.00543
+63,0.00589
+64,0.00640
+65,0.00697
+66,0.00763
+67,0.00838
+68,0.00923
+69,0.01020
+70,0.01133
+71,0.01259
+72,0.01401
+73,0.01563
+74,0.01752
+75,0.01970
+76,0.02228
+77,0.02527
+78,0.02874
+79,0.03276
+80,0.03749
+81,0.04304
+82,0.04956
+83,0.05709
+84,0.06564
+85,0.07518
+86,0.08567
+87,0.09693
+88,0.10865
+89,0.12053
+90,0.13260
+91,0.14546
+92,0.15965
+93,0.17531
+94,0.19229
+95,0.21060
+96,0.23005
+97,0.25045
+98,0.27208
+99,0.29473
+100,0.31837
+101,0.34316
+102,0.36886
+103,0.39556
+104,0.42279
+105,0.45223
+106,0.48256
+107,0.50561
+108,0.54545
+109,0.55000
+110,0.55556
+111,0.75000
+112,1.00000
