@@ -6,7 +6,7 @@ from premiums import *
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
 
-    filepath = "./TH 00-02 décalé.csv"
+    filepath = "./TF 00-02 décalé.csv"
 
     mortality_table = get_full_table_data(filepath)
     print(f'{mortality_table}\n')
