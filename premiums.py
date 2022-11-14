@@ -14,7 +14,15 @@ def SinglePremiumTA(x,n,techRate,benefit,df) -> float :
 def SinglePremiumEndow(x,n,techRate,benefit,df) -> float :
     return (nAx(x,n,techRate,df)+nEx(x,n,techRate,df))*benefit
 
-def SinglePremiumEnd(x,n,techRate,benefit,df) -> float :
-    singleTA = SinglePremiumTA(x, n, techRate, benefit,df)
-    singlePE = SinglePremiumPE(x, n, techRate, benefit,df)
-    return singleTA+singlePE
+def SinglePremiumWL(x,techRate,benefit,df) -> float :
+    Somme=0
+    for k in range(df[-1]-x):
+        Somme=Somme+n_1qx(x,k,df)*techDF(k+1,techRate)
+    return Somme*benefit
+def SinglePremiumCombined(x,n,techRate,benefit,df_th, df_tf) -> float :
+    singleTH = SinglePremiumEndow(x, n, techRate, benefit,df_th)
+    singleTF = SinglePremiumEndow(x, n, techRate, benefit,df_tf)
+    if singleTF > singleTH :
+        return singleTF, "tf"
+    else :
+        return singleTH, "th"

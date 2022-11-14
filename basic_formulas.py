@@ -29,6 +29,9 @@ def qx(x,df) -> float :
 def n_lqx(x,n,df) -> float :
     return (lx(x + n,df) - lx(x + n + 1,df)) / lx(x,df)
 
+def n_1qx(x,n,df) -> float :
+    return (lx(x + n,df) - lx(x + n + 1,df)) / lx(x,df)
+
 def npx(x,n,df) -> int :
     return lx(x+n,df)/lx(x,df)
 
