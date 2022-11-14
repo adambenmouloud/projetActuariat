@@ -9,7 +9,7 @@ if __name__ == '__main__':
     filepath = "./TF 00-02 décalé.csv"
 
     mortality_table = get_full_table_data(filepath)
-    print(f'{mortality_table}\n')
+    print(f'Table de mortalité { filepath[2:-4]}:\n{mortality_table}\n')
 
     x = 30 # age
     n = 25 # term
@@ -20,4 +20,4 @@ if __name__ == '__main__':
     singleprem = SinglePremiumPE(x,n,techRate,benefit,mortality_table)
     annualprem = AnnualPremium(singleprem,x,m,techRate,mortality_table)
 
-    print(f'Pure Endowment: x={x}, n={n}, m={m}, technical rate={techRate}, benefit={benefit}\n\nSingle premium: {singleprem}\nAnnual premium: {annualprem}\n ')
+    print(f'Pure Endowment: x={x}, n={n}, m={m}, technical rate={techRate}, benefit={benefit}\nSingle premium: {singleprem}\nAnnual premium: {annualprem}\n ')
